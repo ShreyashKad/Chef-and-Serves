@@ -15,23 +15,29 @@ Output
 For each test case, print a single line containing the string "CHEF" if it is Chef's turn or "COOK" if it is Cook's turn.
 
 ### Constraints:
+```
 1≤T≤105
 1≤K≤109
 0≤P1,P2≤109
+```
 
 ### Subtasks:
 Subtask #1 (100 points): original constraints
 
 ### Example Input:
+```
 3
 1 3 2
 0 3 2
 34 55 2
+```
 
 ### Example Output:
+```
 CHEF
 COOK
 CHEF
+```
 
 ### Explanation:
 Example case 1: Chef serves for the first two points, Cook serves for the next two and then Chef serves once, so Chef has to serve again now.
